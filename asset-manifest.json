@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/ambavi/static/css/main.3478a2ba.css",
+    "main.js": "/ambavi/static/js/main.c1cec114.js",
+    "static/js/510.9e75c027.chunk.js": "/ambavi/static/js/510.9e75c027.chunk.js",
+    "static/media/ShaviMertskhali.mp3": "/ambavi/static/media/ShaviMertskhali.9a22ed6ae481a2b127f7.mp3",
+    "static/media/Dance.mp3": "/ambavi/static/media/Dance.9aadcddb62caaf2457f5.mp3",
+    "static/media/Qalaqshi.mp3": "/ambavi/static/media/Qalaqshi.ffdb68b4b12bce7574c3.mp3",
+    "static/media/Heshela.mp3": "/ambavi/static/media/Heshela.9cfe5d8abeb21861489a.mp3",
+    "static/media/Harali.mp3": "/ambavi/static/media/Harali.8d58f3ffadfc484aac69.mp3",
+    "static/media/Synapse.mp3": "/ambavi/static/media/Synapse.7997d3a5e3bd58f0f530.mp3",
+    "static/media/Gantiadi.mp3": "/ambavi/static/media/Gantiadi.a817c7b52c078ad924a2.mp3",
+    "static/media/Intervals.mp3": "/ambavi/static/media/Intervals.40a0b3f18b3386599ef1.mp3",
+    "static/media/Daigvianes.mp3": "/ambavi/static/media/Daigvianes.16d3a7099cc714ae1e83.mp3",
+    "static/media/daigvianes.jpg": "/ambavi/static/media/daigvianes.c0ca670f1d7240e7966e.jpg",
+    "static/media/gantiadi.jpg": "/ambavi/static/media/gantiadi.631286b0b4fbb9de8faa.jpg",
+    "static/media/bpg_mikheil_stefane.otf": "/ambavi/static/media/bpg_mikheil_stefane.65e9eb2265ec3c7a197c.otf",
+    "static/media/VINYLREPAIRKIT.TTF": "/ambavi/static/media/VINYLREPAIRKIT.4fe431f5dbc8537d4808.TTF",
+    "static/media/bpg_irubaqidze.otf": "/ambavi/static/media/bpg_irubaqidze.fc9b7a116d27ccd4985b.otf",
+    "static/media/calligraphy.ttf": "/ambavi/static/media/calligraphy.6e13b4988e8f707dc406.ttf",
+    "index.html": "/ambavi/index.html",
+    "main.3478a2ba.css.map": "/ambavi/static/css/main.3478a2ba.css.map",
+    "main.c1cec114.js.map": "/ambavi/static/js/main.c1cec114.js.map",
+    "510.9e75c027.chunk.js.map": "/ambavi/static/js/510.9e75c027.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3478a2ba.css",
+    "static/js/main.c1cec114.js"
+  ]
+}
