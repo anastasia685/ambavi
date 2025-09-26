@@ -1,0 +1,89 @@
+.container{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    /*height: calc(100% - 50px);*/
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /*top: 50px;*/
+    padding-top: calc(8% + 50px);
+    padding-bottom: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-sizing: border-box;
+
+    /*overflow-y: auto;*/
+    background: radial-gradient(farthest-corner at center, rgba(0,3,166,.4) 30%, transparent 82%)
+}
+
+.paragraph{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    width: 64%;
+    font-family: Calligraphy;
+    font-size: 28px;
+    color: var(--secondary);
+    letter-spacing: 0.5px;
+    text-shadow: 1px 1px 0 #333, -1px -1px 0 #333, 1px -1px 0 #333, -1px 1px 0 #333, 1px 1px 0 #333
+}
+
+.iconsContainer{
+    margin-top: 5%;
+    display: flex;
+    width: 64%;
+}
+.iconContainer{
+    height: 36px;
+    width: 36px;
+    margin-right: 2%;
+    color: var(--secondary);
+
+    cursor: pointer;
+    outline: none;
+}
+.icon{
+    height: 100% !important;
+    width: 100% !important;
+
+    cursor: pointer;
+    outline: none;
+}
+.icon:hover{
+    color: var(--accent);
+}
+
+@media only screen and (max-width: 992px) {
+    .paragraph {
+        font-size: 27px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .paragraph {
+        width: 70%;
+        font-size: 25px;
+    }
+    .iconsContainer{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .paragraph {
+        width: 80%;
+        font-size: 23px;
+    }
+    .iconsContainer{
+        width: 80%;
+    }
+    .container{
+        justify-content: flex-start;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .paragraph {
+        font-size: 19px;
+    }
+}

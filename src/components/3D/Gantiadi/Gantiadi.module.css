@@ -1,0 +1,175 @@
+.container{
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100%;
+
+    overflow-y: auto;
+
+    padding-top: calc(3% + 50px);
+    box-sizing: border-box;
+}
+
+.cursor {
+    pointer-events: none;
+    display: inline;
+}
+
+.ball {
+     position: fixed;
+     top: 0;
+     left: 0;
+     mix-blend-mode: difference;
+     z-index: 3;
+}
+.circle {
+    fill: #f7f8fa;
+}
+
+.headerContainer{
+    margin-top: 1%;
+    width: 65%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 3%;
+    box-sizing: border-box;
+}
+
+.form{
+    width: 65%;
+    padding-left: 3%;
+    padding-right: 3%;
+    /*padding-top: 5%;*/
+    padding-bottom: 3%;
+    box-sizing: border-box;
+}
+
+.inputsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+}
+.input {
+    height: 42px;
+    line-height: 20px;
+    border: none;
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+
+    font-size: 20px;
+    font-family: 'BPGMikheilStefane, BPG Mikheil Stefane';
+
+    width: 44%;
+
+    outline: none;
+}
+.textarea{
+    border: none;
+    outline: none;
+    /*resize: none;*/
+
+    width: 100%;
+
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-family: 'BPGMikheilStefane, BPG Mikheil Stefane';
+
+    margin-top: 2.5%;
+
+    font-size: 20px;
+    line-height: 20px;
+}
+.input:focus, .textarea:focus{
+    border-bottom: 4px solid var(--accent);
+}
+
+.buttonContainer{
+    margin-top: 2%;
+
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+}
+.button{
+    border: none;
+    outline: none;
+
+    padding: 0.8% 1.6%;
+
+    font-size: 19px;
+    box-sizing: border-box;
+    background-color: var(--accent);
+    color: var(--secondary);
+    font-family: 'Calligraphy';
+
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .headerContainer, .form{
+        width: 72%;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .headerContainer, .form{
+        width: 78%;
+    }
+    .input {
+        width: 46%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .headerContainer, .form{
+        width: 88%;
+    }
+    .input {
+        width: 47%;
+    }
+    .button{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .inputsContainer{
+        flex-direction: column;
+    }
+    .input:first-child{
+        margin-bottom: 3%;
+    }
+    .input {
+        width: 100%;
+    }
+    .input, .textarea {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .button{
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width: 576px){
+    .input, .textarea {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .button {
+        font-size: 16px;
+    }
+    .container{
+        justify-content: flex-start;
+    }
+}
+@media only screen and (max-width: 400px){
+    .button {
+        font-size: 16px;
+    }
+}

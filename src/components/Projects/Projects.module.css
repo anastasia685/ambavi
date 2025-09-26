@@ -1,0 +1,47 @@
+.wrapper{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+.container{
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    max-width: 1800px;
+
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 8%;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+.container p {
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 768px){
+    .container p{
+     font-size: 17px;
+    }
+    .container h1 {
+        font-size: 1.85em;
+    }
+}
+@media only screen and (max-width: 578px){
+    .container p{
+        font-size: 16px;
+    }
+    .container h1 {
+        font-size: 1.7em;
+    }
+}
+@media only screen and (max-width: 360px){
+    .container p{
+        font-size: 14px;
+    }
+    .container h1 {
+        font-size: 1.5em;
+    }
+}

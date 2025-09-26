@@ -1,0 +1,43 @@
+.wrapper{
+    position: absolute;
+    top: 0;
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 100%;
+    max-width: 1800px;
+
+    /*padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+    padding-top: 50px;*/
+    box-sizing: border-box;
+}
+
+.iconsContainer{
+    margin-top: 5%;
+    display: flex;
+}
+.iconContainer{
+    height: 36px;
+    width: 36px;
+    margin-right: 2%;
+    color: var(--secondary);
+
+    cursor: pointer;
+    outline: none;
+}
+.icon{
+    height: 100% !important;
+    width: 100% !important;
+
+    cursor: pointer;
+    outline: none;
+}
+.icon:hover{
+    color: var(--accent);
+}

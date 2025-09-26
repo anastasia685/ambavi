@@ -1,0 +1,25 @@
+.audioButton {
+    background: none;
+    border: none;
+    color: var(--secondary);
+    cursor: pointer;
+
+    height: 23px;
+    width: 23px;
+
+    padding: 0;
+
+    margin-right: 10px;
+}
+.audioButton:hover, .audioButton.active{
+    color: var(--accent);
+}
+.active {
+    text-decoration: underline;
+    text-decoration-color: var(--accent);
+}
+
+.icon {
+    height: 100%;
+    width: 100% !important;
+}

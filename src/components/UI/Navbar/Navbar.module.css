@@ -1,0 +1,139 @@
+.navbar {
+    height: 1px;
+    min-height: 50px;
+    width: 100%;
+    background-color: var(--primary);
+    /*background-color: rgba(0,0,0,.55);*/
+    border: none;
+
+    position: absolute;
+    z-index: 4;
+
+    display: flex;
+    align-items: center;
+}
+.container {
+    height: 100%;
+    width: 100%;
+    max-width: 1800px;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.logo {
+    height: 85px;
+    width: auto;
+    /*transform: translate(-15px, -4px);*/
+}
+
+.tabs {
+    font-size: 21px;
+    /*font-family: 'BPGMikheilStefane, BPG Mikheil Stefane';*/
+    font-family: 'BPGIrubaqidze';
+
+    height: 100%;
+    width: 100%;
+}
+.tabWrapper {
+    /*height: 100%;*/
+    display: flex;
+    align-items: center;
+
+    padding-right: 3px;
+    padding-left: 3px;
+    box-sizing: border-box;
+}
+.tabWrapper:not(:last-child){
+    margin-right: 10px;
+}
+.tab {
+    width: 100%;
+    text-decoration: none;
+    color: #777;
+}
+.tabWrapper:hover {
+    /*background-color: var(--secondary);*/
+    /*color: var(--secondary);*/
+}
+.tabWrapper:hover .tab {
+    color: white;
+    /*color: var(--secondary);*/
+}
+.tab.active {
+    color: var(--secondary);
+}
+.tab.active:hover {
+    color: grey;
+}
+
+.buttonDropdown {
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 8px;
+    background-color: transparent;
+    color: var(--secondary);
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    height: 32px;
+    width: 32px;
+}
+.buttonDropdown .icon {
+    height: 100%;
+    width: 100%;
+}
+@media only screen and (max-width: 1080px) {
+    .tabWrapper {
+        padding-left: 0;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .tabWrapper{
+        padding-right: 0;
+    }
+}
+@media only screen and (max-width: 700px){
+    .tabs {
+        font-size: 19px;
+    }
+}
+@media only screen and (max-width: 644px) {
+    .tabs {
+        /*display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 2%;*/
+    }
+    .container{
+        padding-top: 45px;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .buttonDropdown {
+        display: unset;
+    }
+    .navbar.collapsed {
+        height: 50px;
+        min-height: unset;
+    }
+    .navbar.collapsed .container div {
+        display: none;
+    }
+    .navbar {
+        height: 300px;
+    }
+    .tabWrapper {
+        margin-left: unset !important;
+        margin-bottom: 5px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .logo {
+        height: 72px;
+    }
+}

@@ -1,0 +1,19 @@
+.wrapper{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    position: absolute;
+    top: 0;
+}
+.container{
+    width: 100%;
+    max-width: 1800px;
+
+    /*padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 3%;
+    padding-top: 50px;
+    box-sizing: border-box;*/
+}

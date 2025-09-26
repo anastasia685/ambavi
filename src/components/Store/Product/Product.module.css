@@ -1,0 +1,42 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 100%;
+    max-width: 1800px;
+
+    display: flex;
+    justify-content: space-between;
+
+    padding-left: 3%;
+    padding-right: 3%;
+    box-sizing: border-box;
+
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+.imgContainer{
+    height: 500px;
+    width: 60%;
+    background-color: var(--accent);
+}
+.infoContainer {
+    width: 37%;
+}
+.sizeContainer {
+    display: flex;
+    flex-direction: row;
+}
+.size{
+    height: 50px;
+    width: 50px;
+    border: 1px solid var(--secondary);
+}
+.size:hover {
+    cursor: pointer;
+}
+.size:hover, .size.selected {
+    border-color: var(--accent);
+}
